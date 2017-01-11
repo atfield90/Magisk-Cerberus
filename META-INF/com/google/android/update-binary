@@ -262,6 +262,11 @@ mkdir -p $MODPATH
 ui_print "- Copying files"
 unzip -o "$ZIP" "system/*" -d $MODPATH
 
+if ($DATAPPDIR); then
+	ui_print "- Installing #MODPATH to system"
+cp $DATAPP $MODPATH/system/priv-app/$DATAPPDIR/base.apk
+fi
+
 # Handle replace folders
 for TARGET in $REPLACE; do
   mktouch $MODPATH$TARGET/.replace
