@@ -1,8 +1,8 @@
-id=template
-name=Template Module
+id=ActionLauncher
+name=ActionLauncher As System App
 version=v1
 versionCode=1
-author=topjohnwu
-description=A short description
+author=AtField 
+description=Converts ActionLauncher To a system app
 support=http://forum.xda-developers.com/showthread.php?t=3432382
 donate=http://topjohnwu.github.io/donate
