@@ -31,8 +31,7 @@ MODID=ActionLauncher
 
 # This is the name of the folder for your /data/app if you wish to update it 
 # Blank out if you're not converting an app to system, or replace it with desired folder
-DATAPPDIR=com.actionlauncher.playstore-2
-
+DATAPPDIR=com.actionlauncher.playstore-1
 # This is the directory of your apk in data you want converted into a system app
 # 
 DATAPP=/data/app/$DATAPPDIR/base.apk
